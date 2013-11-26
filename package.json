@@ -4,7 +4,9 @@
     "url": "https://github.com/psirenny/derby-user-policy/issues"
   },
   "dependencies": {
-    "lgtm": "*"
+    "lgtm": "*",
+    "lodash": "*",
+    "string": "*"
   },
   "description": "Enable user policies for Derby User.",
   "keywords": [
