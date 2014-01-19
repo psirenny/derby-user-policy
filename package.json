@@ -8,7 +8,7 @@
     "lodash": "*",
     "validator": "*"
   },
-  "description": "Add user validation to Derby User.",
+  "description": "Add validation to Derby User.",
   "keywords": [
     "derby",
     "schema",
