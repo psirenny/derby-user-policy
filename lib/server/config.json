@@ -1,0 +1,48 @@
+{
+  "rules": {
+    "email": {
+      "blur": {
+        "validate.user.email.valid": true,
+        "validate.user.email.unique": true
+      }
+    },
+    "password": {
+      "blur": {
+        "validate.user.password.maximumLength": true,
+        "validate.user.password.minimumLength": true
+      },
+      "keypress": {
+        "validate.user.password.maximumLength": true
+      }
+    },
+    "username": {
+      "blur": {
+        "validate.user.username.alphanumeric": true,
+        "validate.user.username.maximumLength": true,
+        "validate.user.username.minimumLength": true,
+        "validate.user.username.unique": true
+      },
+      "keypress": {
+        "validate.user.username.alphanumeric": true,
+        "validate.user.username.maximumLength": true
+      }
+    }
+  },
+  "schema": {
+    "email": {
+      "required": true,
+      "valid": true
+    },
+    "password": {
+      "maximumLength": 50,
+      "minimumLength": 8,
+      "required": true
+    },
+    "username": {
+      "alphanumeric": true,
+      "maximumLength": 50,
+      "minimumLength": 1,
+      "required": true
+    }
+  }
+}
