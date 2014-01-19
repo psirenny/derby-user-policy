@@ -1,17 +1,16 @@
 {
   "author": "psirenny <djtorres0@gmail.com>",
   "bugs": {
-    "url": "https://github.com/psirenny/derby-user-policy/issues"
+    "url": "https://github.com/psirenny/derby-validate-user/issues"
   },
   "dependencies": {
-    "lgtm": "*",
+    "dotty": "*",
     "lodash": "*",
-    "string": "*"
+    "validator": "*"
   },
   "description": "Enable user policies for Derby User.",
   "keywords": [
     "derby",
-    "policy",
     "schema",
     "user",
     "validate",
@@ -19,11 +18,11 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "derby-user-policy",
+  "name": "derby-validate-user",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/psirenny/derby-user-policy.git"
+    "url": "git://github.com/psirenny/derby-validate-user.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

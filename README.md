@@ -1,4 +1,4 @@
-Derby User Policy
-=================
+Derby Validate User
+===================
 
-Enable user policies for Derby User.
+Add user validation to Derby User.
