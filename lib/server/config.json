@@ -1,8 +1,12 @@
 {
   "rules": {
+    "confirmPassword": {
+      "blur": {
+        "validate.user.confirmPassword.matches": true
+      }
+    },
     "email": {
       "blur": {
-        "validate.user.email.changed": true,
         "validate.user.email.exists": true,
         "validate.user.email.valid": true,
         "validate.user.email.unique": true
@@ -21,7 +25,6 @@
     "username": {
       "blur": {
         "validate.user.username.alphanumeric": true,
-        "validate.user.username.changed": true,
         "validate.user.username.exists": true,
         "validate.user.username.maximumLength": true,
         "validate.user.username.minimumLength": true,
@@ -30,6 +33,12 @@
       "keypress": {
         "validate.user.username.alphanumeric": true,
         "validate.user.username.maximumLength": true
+      }
+    },
+    "usernameOrEmail": {
+      "blur": {
+        "validate.user.email.exists": true,
+        "validate.user.username.exists": true
       }
     }
   },
