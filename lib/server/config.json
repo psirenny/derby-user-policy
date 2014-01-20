@@ -36,6 +36,7 @@
   "schema": {
     "email": {
       "required": true,
+      "unique": true,
       "valid": true
     },
     "password": {
