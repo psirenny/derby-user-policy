@@ -4,7 +4,6 @@
     "url": "https://github.com/psirenny/derby-validate-user/issues"
   },
   "dependencies": {
-    "dotty": "*",
     "lodash": "*",
     "validator": "*"
   },
